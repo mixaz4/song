@@ -1,0 +1,67 @@
+body {
+    background-color: #e6f4e6; /* Светло-зелёный фон */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Зелёная шапка */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Расстояние между логотипом и названием */
+}
+
+#logo {
+    width: 300px; /* Размер логотипа */
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#band-image {
+    width: 300px;
+    height: auto;
+    transition: transform 0.5s ease, opacity 1s ease;
+    opacity: 0; /* Изначально скрыто */
+}
+
+#band-image:hover {
+    transform: scale(1.1); /* Лёгкое увеличение при наведении */
+}
+
+.content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50; /* Зелёный подвал */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+footer p:hover {
+    color: #ffeb3b; /* Жёлтый при наведении */
+}
